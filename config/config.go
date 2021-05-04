@@ -19,6 +19,7 @@ type ConfigSet struct {
 	PrivPassword string              `config:"privpass"`
 	Version      string              `config:"version"`
 	OIDs         []map[string]string `config:"oids"`
+	Tables		 []map[string]string `config:"tables"`
 }
 
 var DefaultConfig = Config{
