@@ -1,4 +1,4 @@
-FROM golang:1.12.4
+FROM golang:1.24.0
 MAINTAINER Noémi Ványi <noemi.vanyi@elastic.co>
 
 RUN set -x && \
