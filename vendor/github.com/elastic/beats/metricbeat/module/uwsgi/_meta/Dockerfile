@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM python:3.14.0rc1-alpine
 
 RUN apk add --no-cache --virtual .build-deps gcc libc-dev linux-headers curl
 RUN pip install --no-cache-dir --trusted-host pypi.python.org uwsgi
